@@ -30,8 +30,24 @@ Similarly, abstract as much as you'd like or as is necessary, but we won't expec
 
     `GET /api/authors`
     
-1.  TODO: Create a customized error experience
+## You pick what's next
+    
+1.  Create a customized error experience
 
-1.  TODO: Create/Modify an endpoint to search for authors by name. 
+    When saving an author with a name `<script>bad actor</script>`, have the api respond with a custom error response: 
+    
+    ```json
+    {
+      "error": "Please don't hack me."
+    }
+    ```
 
-1.  TODO: Testing - 
+1.  Create/Modify an endpoint to search for authors by name. 
+    
+    Given `Charles Dickens` and `William Shakespeare` are in the database as authors  
+    
+    I want to be able to search with the string `ha` and find both authors: `Charles Dickens` and `William Shakespeare` (because both authors have the string `ha` in their name)
+    
+1.  Create Tests for our application
+
+    A good application is supported by good tests - please add some test coverage!
