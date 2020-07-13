@@ -1,0 +1,4 @@
+### Get all authors
+GET localhost:8080/api/authors
+
+###

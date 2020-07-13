@@ -1,16 +1,16 @@
 # Interview
 
-Testing is important - but for brevity sake, we're not expecting any automated during the interview.
+Testing is important - but for brevity sake, we're not expecting any automated during the interview. 
 
 Similarly, abstract as much as you'd like or as is necessary, but we won't expect full abstraction for the interview.
 
-
+## Tasks
 
 1. Build an API endpoint that returns an author. (hardcoded author)
 
     `GET /api/authors/1`
     
-    Expected Response:
+    Example Response:
 
     ```json
     {
@@ -33,3 +33,5 @@ Similarly, abstract as much as you'd like or as is necessary, but we won't expec
 1.  TODO: Create a customized error experience
 
 1.  TODO: Create/Modify an endpoint to search for authors by name. 
+
+1.  TODO: Testing - 

@@ -1,7 +1,4 @@
 
-### Get all authors
-GET localhost:8080/api/authors
-
 ### Get 1 author - with id 1
 GET localhost:8080/api/authors/1
 
