@@ -1,0 +1,17 @@
+
+### Get all authors
+GET localhost:8080/api/authors
+
+### Get 1 author - with id 1
+GET localhost:8080/api/authors/1
+
+### Get 2 author - with id 2
+GET localhost:8080/api/authors/2
+
+### Get 3 author - with id 3
+GET localhost:8080/api/authors/3
+
+### Get 4 author - with id 4
+GET localhost:8080/api/authors/4
+
+###

@@ -1,0 +1,35 @@
+### Mark Twain
+POST localhost:8080/api/authors
+Content-Type: application/json
+
+{
+  "firstName": "Mark",
+  "lastName": "Twain"
+}
+
+###
+POST localhost:8080/api/authors
+Content-Type: application/json
+
+{
+  "firstName": "Charles",
+  "lastName": "Dickens"
+}
+
+###
+POST localhost:8080/api/authors
+Content-Type: application/json
+
+{
+  "firstName": "J.K.",
+  "lastName": "Rowling"
+}
+
+###
+POST localhost:8080/api/authors
+Content-Type: application/json
+
+{
+"firstName": "William",
+"lastName": "Shakespeare"
+}
